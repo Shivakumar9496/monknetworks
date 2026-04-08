@@ -30,7 +30,7 @@ const AppContent = () => {
 
 function App() {
   return (
-    <Router basename="/monknetworks">
+    <Router>
       <AppContent />
     </Router>
   );
