@@ -17,12 +17,11 @@ const AppContent = () => {
       <ScrollToTop />
       <AnimatePresence mode="wait">
         <Routes location={location} key={location.pathname}>
-          <Route path="/" element={<Navigate to="/monknetworks" />} />
-          <Route path="/monknetworks" element={<Homepage />} />
-          <Route path="/monknetworks/solutions" element={<SolutionsPage />} />
-          <Route path="/monknetworks/digital-solutions" element={<DigitalSolutionsPage />} />
-          <Route path="/monknetworks/about" element={<AboutPage />} />
-          <Route path="/monknetworks/contact" element={<ContactPage />} />
+          <Route path="/" element={<Homepage />} />
+          <Route path="/solutions" element={<SolutionsPage />} />
+          <Route path="/digital-solutions" element={<DigitalSolutionsPage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/contact" element={<ContactPage />} />
         </Routes>
       </AnimatePresence>
     </MainLayout>
@@ -31,7 +30,7 @@ const AppContent = () => {
 
 function App() {
   return (
-    <Router>
+    <Router basename="/monknetworks">
       <AppContent />
     </Router>
   );

@@ -26,10 +26,10 @@ const Navbar = () => {
 
     // Navigation items for the multi-page structure
     const navItems = [
-        { name: "Home", path: "/monknetworks" },
-        { name: "Solutions", path: "/monknetworks/solutions" },
-        { name: "Digital Solutions", path: "/monknetworks/digital-solutions" },
-        { name: "About Us", path: "/monknetworks/about" },
+        { name: "Home", path: "/" },
+        { name: "Solutions", path: "/solutions" },
+        { name: "Digital Solutions", path: "/digital-solutions" },
+        { name: "About Us", path: "/about" },
     ];
 
     return (
@@ -56,7 +56,7 @@ const Navbar = () => {
         >
             {/* Logo Section */}
             <Link
-                to="/monknetworks"
+                to="/"
                 style={{
                     textDecoration: 'none',
                     display: "block",
@@ -157,7 +157,7 @@ const Navbar = () => {
                     </motion.ul>
 
                     <motion.div style={{ display: "flex", alignItems: "center", gap: "20px" }}>
-                        <Link to="/monknetworks/contact">
+                        <Link to="/contact">
                             <button
                                 style={{
                                     padding: "8px 22px",
@@ -249,7 +249,7 @@ const Navbar = () => {
                                 transition={{ delay: 0.4 }}
                                 style={{ marginTop: "20px" }}
                             >
-                                <Link to="/monknetworks/contact" onClick={() => setIsMenuOpen(false)}>
+                                <Link to="/contact" onClick={() => setIsMenuOpen(false)}>
                                     <button
                                         style={{
                                             width: "100%",
