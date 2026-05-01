@@ -510,7 +510,7 @@ const ContactPage = () => {
                                 <div>
                                     <h4 style={{ color: "white", fontSize: "1.2rem", marginBottom: "5px" }}>Call Us</h4>
                                     <p style={{ color: "rgba(255,255,255,0.6)", lineHeight: "1.6" }}>
-                                        +91 93 80 38 7110<br />
+                                        +91 73380 46606<br />
                                         Mon - Fri, 9am - 6pm IST
                                     </p>
                                 </div>

@@ -31,7 +31,7 @@ const Footer = () => {
 
     const contactInfo = [
         { icon: <FaEnvelope />, text: "info@monknetworks.in" },
-        { icon: <FaPhone />, text: "+91 93 80 38 7110" },
+        { icon: <FaPhone />, text: "+91 73380 46606" },
         { icon: <FaMapMarkerAlt />, text: "No.112, AKR Tech Park, Bengaluru, Karnataka 560068." },
     ];
 
